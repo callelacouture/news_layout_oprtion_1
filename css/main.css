@@ -1,0 +1,126 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+.featured-content-div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 70% 1fr;
+      grid-template-columns: 70% 1fr;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.mainImageDiv {
+  display: -ms-grid;
+  display: grid;
+  margin: 10px;
+}
+
+@media screen and (max-width: 1215px) {
+  .mainImageDiv {
+    margin: 5px;
+  }
+}
+
+.main_image_large {
+  width: 100%;
+}
+
+.main_story_text_div {
+  margin-top: -100px;
+  padding: 10px;
+}
+
+.main_story_text_div h3 {
+  color: #fff;
+}
+
+.small_thumbnail {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.image_text_small {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  margin-top: 10px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+@media screen and (max-width: 1200px) {
+  .image_text_small {
+    margin: 5px;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+.image_text_small .small_description_div {
+  padding: 10px;
+  text-align: start;
+  height: 100%;
+}
+
+.image_text_small .small_description_div h4 {
+  margin: 10px 0px;
+}
+
+.image_text_small .small_description_div p {
+  display: -ms-grid;
+  display: grid;
+  margin: 0;
+  text-align: start;
+}
+
+.sideFeaturedStories {
+  display: -ms-grid;
+  display: grid;
+}
+
+.medium_thumbnail {
+  width: 100%;
+  max-height: 250px;
+}
+
+.secondary_stories_div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.image_text_medium {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  margin-bottom: 15px;
+}
+
+.image_text_medium .medium_description_div {
+  padding: 10px;
+  text-align: left;
+}
+
+.texas_mutual_and_social_div {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=main.css.map */
